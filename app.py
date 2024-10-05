@@ -11,7 +11,7 @@ nltk.download('wordnet')
 with open(r"C:\Users\disha\Downloads\Models\vectorizer.pkl", 'rb') as f:
     vectorizer = pickle.load(f)
 
-with open(r"C:\Users\disha\Downloads\Models\scaler.pkl"', 'rb') as f:
+with open(r"C:\Users\disha\Downloads\Models\scaler.pkl", 'rb') as f:
     scaler = pickle.load(f)
 
 with open(r"C:\Users\disha\Downloads\Models\model_rf.pkl", 'rb') as f:
